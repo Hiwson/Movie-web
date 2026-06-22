@@ -35,7 +35,8 @@ nav{
     display: flex;
     justify-self: center;
     align-items: center;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    gap: 10px;
 }
 i{
     font-size: 15px;
@@ -43,6 +44,9 @@ i{
 #srh-box input{
     padding: 3px;
     width: 65%;
+}
+#srh-box i{
+    cursor: pointer;
 }
 #category-container{
     /*border: 1px solid red;*/
@@ -107,6 +111,9 @@ button{
 .type button{
     padding: 3px;
     border-radius: 8px;
+    background-color:rgba(249, 174, 156, 0.2);
+    border: 0.3px solid brown;
+    cursor: auto;
 }
 .type{
     padding: 5px;
